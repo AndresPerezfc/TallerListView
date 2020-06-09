@@ -14,6 +14,11 @@
     <string name="resultado">Resultado</string>
 
     <string name="error_valor_lado">Debe ingresar el valor del lado</string>
+    <string name="area_cuadrado">Area del Cuadrado</string>
+    <string name="operaciones">Operaciones Realizadas</string>
+    <string name="numero">No.</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
 
 
     <string-array name="opciones">

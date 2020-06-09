@@ -23,10 +23,14 @@ public class Cuadrado extends AppCompatActivity {
     }
 
     public void calcular(View v){
+        int lado, area;
+        String nombre_operacion = getString(R.string.area_cuadrado);
+        Operaciones operacion;
         if(validar()) {
-            int lado, area;
             lado = Integer.parseInt(valor_lado.getText().toString());
             area = lado * lado;
+            operacion = new Operaciones(nombre_operacion, lado, area);
+            operacion.guardar();
             resultado.setText("" + area);
         }
     }
