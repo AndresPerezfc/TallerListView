@@ -4,9 +4,19 @@
     <string name="opcion_areas">Areas</string>
     <string name="opcion_volumenes">Volúmenes</string>
     <string name="opcion_operacionesRealizadas">Operaciones Realizadas</string>
+    <string name="opcion_cuadrado">Cuadrado</string>
+    <string name="opcion_rectangulo">Rectángulo</string>
+    <string name="opcion_triangulo">Triángulo</string>
+    <string name="opcion_circulo">Círculo</string>
     <string-array name="opciones">
         <item>@string/opcion_areas</item>
         <item>@string/opcion_volumenes</item>
         <item>@string/opcion_operacionesRealizadas</item>
+    </string-array>
+    <string-array name="opcionesAreas">
+        <item>@string/opcion_cuadrado</item>
+        <item>@string/opcion_rectangulo</item>
+        <item>@string/opcion_triangulo</item>
+        <item>@string/opcion_circulo</item>
     </string-array>
 </resources>
