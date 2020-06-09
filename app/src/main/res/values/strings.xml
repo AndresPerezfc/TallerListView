@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Taller ListView</string>
+    <string name="opciones">Opciones</string>
+    <string name="opcion_areas">Areas</string>
+    <string name="opcion_volumenes">Volúmenes</string>
+    <string name="opcion_operacionesRealizadas">Operaciones Realizadas</string>
+    <string-array name="opciones">
+        <item>@string/opcion_areas</item>
+        <item>@string/opcion_volumenes</item>
+        <item>@string/opcion_operacionesRealizadas</item>
+    </string-array>
 </resources>
