@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller ListView</string>
+    <string name="opciones">Options</string>
+    <string name="opcion_areas">Areas</string>
+    <string name="opcion_volumenes">Volumes</string>
+    <string name="opcion_operacionesRealizadas">Operations Performed</string>
+    <string name="opcion_cuadrado">Square</string>
+    <string name="opcion_rectangulo">Rectangle</string>
+    <string name="opcion_triangulo">Triangle</string>
+    <string name="opcion_circulo">Circle</string>
+    <string name="opcion_esfera">Sphere</string>
+    <string name="opcion_cilindro">Cylinder</string>
+    <string name="opcion_cono">Cone</string>
+    <string name="opcion_cubo">Cube</string>
+    <string name="nlados">Side value</string>
+    <string name="calcular">Calculate</string>
+    <string name="borrar">Delete</string>
+    <string name="resultado">"Result "</string>
+    <string name="error_valor">You must enter this value</string>
+    <string name="area_cuadrado">Square Area</string>
+    <string name="area_rectangulo">Rectangle Area</string>
+    <string name="area_triangulo">Triangle Area</string>
+    <string name="area_circulo">Circle Area</string>
+    <string name="volumen_esfera">"Sphere Volume "</string>
+    <string name="volumen_cilindro">Cylinder Volume</string>
+    <string name="volumen_cono">Cone Volume</string>
+    <string name="operaciones">Operations Performed</string>
+    <string name="numero">No.</string>
+    <string name="operacion">Operation</string>
+    <string name="datos">Data</string>
+    <string name="base">Base</string>
+    <string name="altura">Height</string>
+    <string name="radio">Radio</string>
+    <string name="arista">Edge</string>
+    <string name="volumen_cubo">Cube Volume</string>
+</resources>
