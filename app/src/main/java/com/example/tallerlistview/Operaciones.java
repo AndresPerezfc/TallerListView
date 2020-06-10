@@ -1,47 +1,40 @@
 package com.example.tallerlistview;
 
 public class Operaciones {
-    private int vlado;
-    private int radio;
-    private int altura;
+
+    private int dato1;
+    private int dato2;
+
     private String nombre_operacion;
     private int resultado;
 
-    public Operaciones(String nombre_operacion, int vlado, int resultado){
+    public Operaciones(String nombre_operacion, int dato1, int resultado){
         this.nombre_operacion = nombre_operacion;
-        this.vlado = vlado;
+        this.dato1 = dato1;
         this.resultado = resultado;
     }
 
-    public Operaciones(String nombre_operacion, int radio, int altura, int resultado){
+    public Operaciones(String nombre_operacion, int dato1, int dato2, int resultado){
         this.nombre_operacion = nombre_operacion;
-        this.radio = radio;
-        this.altura = altura;
+        this.dato1 = dato1;
+        this.dato2 = dato2;
         this.resultado = resultado;
     }
 
-    public int getVlado() {
-        return vlado;
+    public int getDato1() {
+        return dato1;
     }
 
-    public void setVlado(int vlado) {
-        this.vlado = vlado;
+    public void setDato1(int dato1) {
+        this.dato1 = dato1;
     }
 
-    public int getRadio() {
-        return radio;
+    public int getDato2() {
+        return dato2;
     }
 
-    public void setRadio(int radio) {
-        this.radio = radio;
-    }
-
-    public int getAltura() {
-        return altura;
-    }
-
-    public void setAltura(int altura) {
-        this.altura = altura;
+    public void setDato2(int dato2) {
+        this.dato2 = dato2;
     }
 
     public String getNombre_operacion() {

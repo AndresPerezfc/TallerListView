@@ -13,12 +13,15 @@
     <string name="borrar">Borrar</string>
     <string name="resultado">Resultado</string>
 
-    <string name="error_valor_lado">Debe ingresar el valor del lado</string>
+    <string name="error_valor">Debe ingresar este valor</string>
     <string name="area_cuadrado">Area del Cuadrado</string>
+    <string name="area_rectangulo">Area del Rectangulo</string>
     <string name="operaciones">Operaciones Realizadas</string>
     <string name="numero">No.</string>
     <string name="operacion">Operación</string>
     <string name="datos">Datos</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
 
 
     <string-array name="opciones">

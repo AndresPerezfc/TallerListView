@@ -31,14 +31,13 @@ public class ListarOperaciones extends AppCompatActivity {
 
             columna_uno.setText("" + (i+1));
             columna_dos.setText(operaciones.get(i).getNombre_operacion());
-            String valorrlado = Integer.toString(operaciones.get(i).getVlado());
-            if(valorrlado != null){
-                columna_tres.setText("Lado:" + operaciones.get(i).getVlado());
-            }else{
-            columna_tres.setText("radio:" + operaciones.get(i).getRadio() + "\n" + "Altura: " + operaciones.get(i).getAltura());
-        }
 
-            columna_cuatro.setText("resultado: " + operaciones.get(i).getResultado());
+            if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_cuadrado)){
+                columna_tres.setText("Lado: " + operaciones.get(i).getDato1());
+            }else if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_rectangulo)){
+                columna_tres.setText("Base: " + operaciones.get(i).getDato1() + "\n" + "Altura: " + operaciones.get(i).getDato2());
+            }
+            columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
 
             fila.addView(columna_uno);
             fila.addView(columna_dos);

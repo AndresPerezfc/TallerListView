@@ -42,14 +42,14 @@ public class Cuadrado extends AppCompatActivity {
     }
 
     public boolean validar(){
-        String error_valor_lado;
+        String error_valor;
 
         int op;
 
-        error_valor_lado = getResources().getString(R.string.error_valor_lado);
+        error_valor = getResources().getString(R.string.error_valor);
 
         if(valor_lado.getText().toString().isEmpty()){
-            valor_lado.setError(error_valor_lado);
+            valor_lado.setError(error_valor);
             valor_lado.requestFocus();
             return false;
         }
