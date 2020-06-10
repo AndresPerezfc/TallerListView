@@ -17,12 +17,14 @@
     <string name="area_cuadrado">Area del Cuadrado</string>
     <string name="area_rectangulo">Area del Rectangulo</string>
     <string name="area_triangulo">Area del Triangulo</string>
+    <string name="area_circulo">Area del Círculo</string>
     <string name="operaciones">Operaciones Realizadas</string>
     <string name="numero">No.</string>
     <string name="operacion">Operación</string>
     <string name="datos">Datos</string>
     <string name="base">Base</string>
     <string name="altura">Altura</string>
+    <string name="radio">Radio</string>
 
 
     <string-array name="opciones">
