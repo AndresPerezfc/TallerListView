@@ -29,7 +29,8 @@
     <string name="area_circulo">Area del Círculo</string>
 
     <string name="volumen_esfera">Volumen de la Esfera</string>
-    <string name="volumen_cilindro">Volumen del cilindro</string>
+    <string name="volumen_cilindro">Volumen del Cilindro</string>
+    <string name="volumen_cono">Volumen del Cono</string>
 
     <string name="operaciones">Operaciones Realizadas</string>
     <string name="numero">No.</string>
