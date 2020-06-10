@@ -31,6 +31,7 @@
     <string name="volumen_esfera">Volumen de la Esfera</string>
     <string name="volumen_cilindro">Volumen del Cilindro</string>
     <string name="volumen_cono">Volumen del Cono</string>
+    <string name="volumen_cubo">Volumen del Cubo</string>
 
     <string name="operaciones">Operaciones Realizadas</string>
     <string name="numero">No.</string>
@@ -39,6 +40,7 @@
     <string name="base">Base</string>
     <string name="altura">Altura</string>
     <string name="radio">Radio</string>
+    <string name="arista">Arista</string>
 
 
     <string-array name="opciones">

@@ -55,6 +55,10 @@ public class ListarOperaciones extends AppCompatActivity {
                 columna_tres.setText("Radio: " + operaciones.get(i).getDato1() + "\n" + "Altura: " + operaciones.get(i).getDato2());
                 columna_cuatro.setText("Volumen: " + operaciones.get(i).getResultado());
             }
+            else if(operaciones.get(i).getNombre_operacion() == getString(R.string.volumen_cubo)){
+                columna_tres.setText("Arista: " + operaciones.get(i).getDato1());
+                columna_cuatro.setText("Volumen: " + operaciones.get(i).getResultado());
+            }
 
 
             fila.addView(columna_uno);
