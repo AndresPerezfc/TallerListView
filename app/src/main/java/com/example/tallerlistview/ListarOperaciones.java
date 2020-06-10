@@ -34,16 +34,24 @@ public class ListarOperaciones extends AppCompatActivity {
 
             if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_cuadrado)){
                 columna_tres.setText("Lado: " + operaciones.get(i).getDato1());
+                columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
             }else if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_rectangulo)){
                 columna_tres.setText("Base: " + operaciones.get(i).getDato1() + "\n" + "Altura: " + operaciones.get(i).getDato2());
+                columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
             }else if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_triangulo)){
                 columna_tres.setText("Base: " + operaciones.get(i).getDato1() + "\n" + "Altura: " + operaciones.get(i).getDato2());
+                columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
             }else if(operaciones.get(i).getNombre_operacion() == getString(R.string.area_circulo)){
                 columna_tres.setText("Radio: " + operaciones.get(i).getDato1());
+                columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
+            }
+            else if(operaciones.get(i).getNombre_operacion() == getString(R.string.volumen_esfera)){
+                columna_tres.setText("Radio: " + operaciones.get(i).getDato1());
+                columna_cuatro.setText("Volumen: " + operaciones.get(i).getResultado());
             }
 
 
-            columna_cuatro.setText("Area: " + operaciones.get(i).getResultado());
+
 
             fila.addView(columna_uno);
             fila.addView(columna_dos);
