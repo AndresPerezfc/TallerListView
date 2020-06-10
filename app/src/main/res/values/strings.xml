@@ -16,6 +16,7 @@
     <string name="error_valor">Debe ingresar este valor</string>
     <string name="area_cuadrado">Area del Cuadrado</string>
     <string name="area_rectangulo">Area del Rectangulo</string>
+    <string name="area_triangulo">Area del Triangulo</string>
     <string name="operaciones">Operaciones Realizadas</string>
     <string name="numero">No.</string>
     <string name="operacion">Operación</string>
